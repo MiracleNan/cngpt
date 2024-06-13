@@ -138,9 +138,9 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 
 const openaiModels = ["gpt-3.5-turbo"];
 
-const googleModels = [];
+const googleModels = [""];
 
-const anthropicModels = [];
+const anthropicModels = [""];
 
 export const DEFAULT_MODELS = [
   ...openaiModels.map((name) => ({
