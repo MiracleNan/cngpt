@@ -1,3 +1,4 @@
+import { getPackedSettings } from "http2";
 import { getClientConfig } from "../config/client";
 import { SubmitKey } from "../store/config";
 
@@ -8,7 +9,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "密码不正确或为空，请前往公众号:[**MiracleNan**](https://mp.weixin.qq.com/s/o2RgBw79f7-2NISgNBvSLw) 回复 **密码** 免费获取密码，👉[点击此处输入密码](/#/auth)后解锁**免费使用**",
   },
   Auth: {
     Title: "需要密码",
@@ -377,7 +378,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello:
+      "👉当前为免费试用的**GPT3.5**模型。\n**GPT-3.5**和**GPT-4**区别在哪里:[![price](/GPTprice.png)](https://mp.weixin.qq.com/s/o2RgBw79f7-2NISgNBvSLw)\n*点击上方图片使用GPT4*",
+    //BotHello: "点击[**这里**](https://mp.weixin.qq.com/s/o2RgBw79f7-2NISgNBvSLw)升级到GPT4plus。\n支持图像查询、文件上传分析等功能\n![GPT4](http://192.168.1.150:5244/p/M/BaiduNetdiskDownload/gpt.png?sign=EQh2o-HTFUyLjB8hmeFdFya7_eUKjDodnKoE178L18s=:0)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
