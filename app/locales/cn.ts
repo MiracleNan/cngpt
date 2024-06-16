@@ -379,7 +379,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "👉当前为免费试用的**GPT3.5**模型。\n**GPT-3.5**和**GPT-4**区别在哪里:[![price](/GPTprice.png)](https://mp.weixin.qq.com/s/o2RgBw79f7-2NISgNBvSLw)\n*点击上方图片使用GPT4*",
+      "👉当前为免费试用的**GPT3.5**模型。\n**GPT-3.5**和**GPT-4**区别在哪里:[![price](/GPTprice.png)](https://mp.weixin.qq.com/s/yYn2NGoZ6XPV4vnGoes9Mg)\n*点击上方图片升级到GPT4*",
     //BotHello: "点击[**这里**](https://mp.weixin.qq.com/s/o2RgBw79f7-2NISgNBvSLw)升级到GPT4plus。\n支持图像查询、文件上传分析等功能\n![GPT4](http://192.168.1.150:5244/p/M/BaiduNetdiskDownload/gpt.png?sign=EQh2o-HTFUyLjB8hmeFdFya7_eUKjDodnKoE178L18s=:0)",
     Error: "出错了，稍后重试吧",
     Prompt: {
