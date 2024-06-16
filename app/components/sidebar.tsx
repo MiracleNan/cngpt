@@ -154,12 +154,11 @@ export function SideBar(props: { className?: string }) {
       }}
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
-        <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          Ai助手
-        </div>
-        <div className={styles["sidebar-sub-title"]}>
-          GPT4等更多功能入口
-          <a href="http://localhost:6015/#/chat/1002">请点击</a>
+        <div className={styles["sidebar-title"]}>
+          GPT-4等更多功能入口
+          <a href="https://mp.weixin.qq.com/s?__biz=MzkwODUyNzg4NA==&mid=2247483689&idx=1&sn=31fe94a73d6dc5e3cb190abd26eab226&chksm=c0c9d14af7be585cc1d25f8419610f7e6117ee31d34e65b206d70705a20c4f115428cf41ba4e#rd">
+            请点击
+          </a>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
